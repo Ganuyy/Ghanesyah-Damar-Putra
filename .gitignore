@@ -1,0 +1,16 @@
+# Audio uploads (jangan di-commit, file besar)
+uploads/songs/*
+!uploads/songs/.gitkeep
+
+# Konfigurasi lokal
+inc/config.local.php
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Log & sementara
+*.log
+__test_modal.html
